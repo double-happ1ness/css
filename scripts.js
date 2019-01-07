@@ -5,13 +5,13 @@ $(function() {
   $("#btn_login").click(function() {
     // retrieve form data
     var uname = $("#uname").val();
-    var pass = $("#pass").val();
+    var psw = $("#psw").val();
 
     // send form data to the server side php script.
     $.ajax({
         type: "POST",
         url: "checkPassword.php",
-        data: { uname:uname, pass:pass }
+        data: { uname:uname, psw:psw }
     }).done(function( data ) {
 
         // Now the output from PHP is set to 'data'.
