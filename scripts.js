@@ -64,7 +64,7 @@ myInput.onkeyup = function() {
         var username = "MitchWardle"; 
         var password = "123abc456";
         if ((un == username) && (pw == password)) {
-            window.location = "content.html";
+            window.location = "index.html";
             return false;
         }
         else {
