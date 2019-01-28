@@ -56,4 +56,10 @@ myInput.onkeyup = function() {
     length.classList.add("invalid");
   }
 }
+
+if (condition) {
+  //  redirect to https://double-happ1ness.github.io/css/success.html
+} else { 
+  //  redirect to https://double-happ1ness.github.io/css/fail.html
+}
 </script>
