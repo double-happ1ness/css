@@ -62,7 +62,7 @@ myInput.onkeyup = function() {
         var un = document.loginForm.username.value;
         var pw = document.loginForm.password.value;
         var username = "MitchWardle"; 
-        var password = "123abc456";
+        var password = "123abC456";
         if ((un == username) && (pw == password)) {
             window.location = "index.html";
             return false;
